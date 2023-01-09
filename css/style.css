@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-image: url("../assets/kryptos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.ms_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  width: 650px;
+  height: 100vh;
+  margin-left: calc(100% - 650px);
+  color: white;
+  text-shadow: 0px 0px 28px #000000;
+}
+
+.ms_wrapper h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  padding-bottom: 0.2em;
+}
+
+.ms_wrapper h1 span:hover {
+  color: #6dd9c5;
+}
+
+.ms_wrapper h2 {
+  padding-bottom: 1em;
+}
+
+.ms_wrapper p {
+  font-size: 20px;
+}
